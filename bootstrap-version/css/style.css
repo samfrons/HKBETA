@@ -122,8 +122,7 @@ img.ipad {
 color: rgb(255, 255, 255);
 padding: 0 15px;
 width: 100%;
-margin-top: 30vw;
-
+margin-top: 100%;
 }
 
 .wifi-contain > h2 {
@@ -572,7 +571,11 @@ left: 40px;
     height: 36px;
     background-position: -90px -5px;
 }
-
+.sprite-wifi_symbol {
+    width: 24px;
+    height: 24px;
+    background-position: -277px -98px;
+}
 @media (min-width: 768px) {
 .col-sm-offset-1 {
 margin-left: 5.333333%;
