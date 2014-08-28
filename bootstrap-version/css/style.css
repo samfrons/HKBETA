@@ -179,6 +179,7 @@ border-bottom: none;
 
 .nav-tabs > li {
 	padding: 20px;
+	min-width: 140px;
 }
 
 .nav-tabs > li > a {
@@ -330,7 +331,7 @@ height: 450px;
 }
 
 .music-button > div {
-	margin-top: 20vw;
+	margin-top: 40%;
 }
 
 .music-contain {
@@ -484,7 +485,97 @@ position: relative;
 left: 40px;
 
 }
-@media (min-width: 768px)
+
+
+
+@media (min-width: 768px) {
 .col-sm-offset-1 {
 margin-left: 5.333333%;
 }
+}
+
+
+@media (max-width: 768px) {
+
+
+
+.tab-content.small {
+	display: block !important;
+}
+.sprite-shop_now {
+	margin: 18px 0 0 20px;
+
+
+}
+.omni10 {
+	background: rgb(28, 28, 27);
+	padding-bottom: 10px;
+}
+
+.omni20, .aura, .onyx, .adapt {
+	background: rgb(28, 28, 27);
+	padding-bottom: 10px;
+}
+
+
+
+.omni10small {
+	background: url('../images/products/product_images_0003_10.png') no-repeat;
+background-size: cover;
+background-position: center center;
+height: 300px;
+}
+
+.omni20small {
+	background: url('../images/products/product_images_0004_20.png') no-repeat;
+background-size: cover;
+background-position: center center;
+height: 300px;
+}
+
+.aurasmall {
+	background: url('../images/products/product_images_0001_aura.png') no-repeat;
+	background-size: cover;
+background-position: top center;
+height: 300px;
+}
+
+.onyxsmall {
+	background: url('../images/products/product_images_0002_onyx.png') no-repeat;
+	background-size: cover;
+background-position: center center;
+height: 300px;
+}
+
+.adaptsmall {
+	background: url('../images/products/product_images_0000_adapt.png') no-repeat;
+	background-size: cover;
+background-position: center center;
+height: 300px;
+}
+.content.pane {
+	position: relative;
+top: -40px;
+}
+
+.m1.first.second {
+	display: none;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
