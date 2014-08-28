@@ -259,6 +259,14 @@ font-weight: 200;
 	border: none;
 }
 
+.left.panel {
+	background: red;
+}
+
+.right.panel {
+	background: blue
+}
+
 .panel-group .panel+.panel {
 margin-top: 0px;
 }
@@ -410,6 +418,11 @@ height: 450px;
 .sprite {
 	background-image: url(../images/spritesheet.png);
     display: inline-block;
+    vertical-align: middle;
+}
+
+.logos {
+	margin-top: 10px;
 }
 
 .sprite-google_play {
@@ -434,7 +447,29 @@ height: 450px;
     background-position: -158px -56px;
       background-image: url(../images/spritesheet.png);
     display: inline-block;
-    margin: 30px 0 0 20px;
+    position: relative;
+    top: 12px;
+
+}
+
+.product-sprites {
+	margin-left: 20px;
+
+}
+
+.price {
+	margin-right: 20px;
+}
+
+.logos {
+	-webkit-transform: scale(.8,.8);
+	margin-left: -30px;
+	margin-bottom:10px;
+}
+
+.logos > span {
+	margin-right: 10px;
+	display: inline-block;
 }
 
 .sprite-omni_10_price {
@@ -486,7 +521,57 @@ left: 40px;
 
 }
 
+.plus {
+	display: none;
+}
+.sprite-blackfire_logo {
+    width: 68px;
+    height: 28px;
+    background-position: -5px -102px;
+}
 
+.sprite-bluetooth_logo {
+    width: 73px;
+    height: 19px;
+    background-position: -83px -102px;
+}
+
+.sprite-wifi_logo {
+    width: 47px;
+    height: 28px;
+    background-position: -220px -98px;
+}
+
+.sprite-wifi_symbol {
+    width: 24px;
+    height: 24px;
+    background-position: -277px -98px;
+}
+
+
+.sprite-omni_10_price {
+    width: 75px;
+    height: 36px;
+    background-position: -5px -184px;
+}
+
+.sprite-omni_20_price {
+    width: 75px;
+    height: 36px;
+    background-position: -90px -184px;
+}
+
+.sprite-onyx_price {
+    width: 75px;
+    height: 36px;
+    background-position: -175px -5px;
+}
+
+.sprite-aura_price {
+    width: 75px;
+    height: 36px;
+    background-position: -90px -5px;
+}
 
 @media (min-width: 768px) {
 .col-sm-offset-1 {
@@ -561,11 +646,49 @@ top: -40px;
 .m1.first.second {
 	display: none;
 }
+.nav-tabs > li.active > a {
+	border-bottom: none !important;
+}
 
+.nav-tabs > li.active > a:hover {
+	border-bottom: none !important;
+}
+.nav-tabs > li > a {
+	border-bottom: none !important;
+}
+.nav-tabs > li > a:hover {
+	border-bottom: 2px solid black;
+}
 
+.nav-tabs > li:hover {
+	border-bottom: 2px solid black;
+}
+.nav-tabs > li {
+	padding: 5px 0 5px 0;
+	border-bottom: 2px solid black;
 
 }
 
+.nav-tabs > li > a {
+	max-width: 150px;
+	color: rgb(0, 160, 226);
+	padding-left: 40px;
+}
+
+.plus {
+	display: inline-block;
+	float: right;
+}
+
+}
+
+
+@media (min-width: 540px) and (max-width: 767px) {
+
+	.offset {
+		margin-left: 45px;
+	}
+}
 
 
 
